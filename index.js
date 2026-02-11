@@ -27,7 +27,7 @@ async function startBot() {
             try {
                 // Request Pairing Code
                 // If the number is still the default XXXXX, this will fail safely.
-                if (myPhoneNumber === "233XXXXXXXXX") {
+                if (myPhoneNumber === "233257671651") {
                     console.log("⚠️ STOP! You forgot to add your phone number in index.js (Line 6).");
                 } else {
                     const code = await sock.requestPairingCode(myPhoneNumber);
